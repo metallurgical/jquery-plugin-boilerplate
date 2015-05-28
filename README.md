@@ -19,5 +19,5 @@ Objects (or, rather, object literals) can be used to create nested namespaces, s
 
 ##References##
 
-http://learn.jquery.com/plugins/advanced-plugin-concepts/
-http://brolik.com/blog/how-to-create-a-jquery-plugin/
+- http://learn.jquery.com/plugins/advanced-plugin-concepts/
+- http://brolik.com/blog/how-to-create-a-jquery-plugin/
