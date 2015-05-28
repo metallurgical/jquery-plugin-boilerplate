@@ -16,3 +16,7 @@ Let’s begin our look at patterns with something basic that follows best practi
 Namespacing your code is a way to avoid collisions with other objects and variables in the global namespace. They’re important because you want to safeguard your plugin from breaking in the event that another script on the page uses the same variable or plugin names as yours. As a good citizen of the global namespace, you must also do your best not to prevent other developers’ scripts from executing because of the same issues.
 JavaScript doesn’t really have built-in support for namespaces as other languages do, but it does have objects that can be used to achieve a similar effect. Employing a top-level object as the name of your namespace, you can easily check for the existence of another object on the page with the same name. If such an object does not exist, then we define it; if it does exist, then we simply extend it with our plugin.
 Objects (or, rather, object literals) can be used to create nested namespaces, such as namespace.subnamespace.pluginName and so on. But to keep things simple, the namespacing boilerplate below should give you everything you need to get started with these concepts.
+
+##References##
+
+http://learn.jquery.com/plugins/advanced-plugin-concepts/
